@@ -1,0 +1,57 @@
+/* Stile generico per il contenitore delle card */
+.contenitore-card {
+    display: flex;
+    flex-wrap: wrap; /* Abilita il wrapping delle card su più righe */
+    justify-content: space-between; /* Distribuisce le card uniformemente */
+    margin: 20px;
+  }
+  
+  /* Stile per ogni singola card */
+  .card {
+    
+    width: 300px; /* Larghezza base della card */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Arrotonda gli angoli della card */
+  }
+  
+  /* Stile per l'immagine */
+  .contenitore-immagine-card {
+    /* Metà della larghezza della card */
+    /* Altezza fissa dell'immagine */
+    overflow:hidden; /* Nasconde l'immagine se supera l'altezza */
+    border-radius: 10px 0 0 10px; /* Arrotonda gli angoli solo a sinistra */
+  }
+  
+  .contenitore-immagine-card img {
+    width: 100%; /* Riempie l'intera area del contenitore */
+    height: auto; /* Mantiene il rapporto d'aspetto dell'immagine */
+  }
+  
+  /* Stile per il contenitore del testo */
+  .contenitore-testo-card {
+    width: 50%; /* Metà della larghezza della card */
+    padding: 20px;
+  }
+  
+  /* Stile per il titolo */
+  .contenitore-testo-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .valutazione-elementi {
+    display: flex;
+    margin-bottom: 10px; /* Spazio sotto le stelle */
+  }
+  
+  .valutazione-immagini-card {
+    display: flex;
+    margin-bottom: 10px; /* Spazio sotto le stelle */
+  }
+  
+  .valutazione-immagini-card img {
+    width: 20px; /* Dimensione delle stelle */
+    height: 20px;
+    margin-right: 5px; /* Spazio tra le stelle */
+  }
+  
