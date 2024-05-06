@@ -1,0 +1,25 @@
+.AboutRight {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: auto;
+    max-height: 250px;
+    background-color: #333; /* Sfondo grigio scuro */
+    border-radius: 10px; /* Angoli arrotondati */
+  }
+  
+ .AboutRight h1 {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    color: #fff; /* Testo bianco per contrasto */
+  }
+  
+  .AboutRight img {
+    max-width: 500px;
+    max-height: 250px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }

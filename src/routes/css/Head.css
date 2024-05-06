@@ -32,9 +32,3 @@
     max-width: 100%;
     height: auto;
   }
-
-  @media(min-width:1250px){
-    .contenitore-immagine-head img {
-      transform: translate(30%);
-    }
-  }

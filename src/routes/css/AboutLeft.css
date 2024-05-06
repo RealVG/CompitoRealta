@@ -1,0 +1,25 @@
+.AboutLeft {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: auto;
+    max-height: 250px;
+    background-color: #333; /* Sfondo grigio scuro */
+    border-radius: 10px; /* Angoli arrotondati */
+  }
+  
+ .AboutLeft h1 {
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .AboutLeft img {
+    max-width: 500px;
+    max-height: 250px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
