@@ -44,7 +44,8 @@
   }
 
   .navbar-links a:hover {
-    background-color: #1b0675;
-    border-radius: 5px;
+    transition-duration: 200ms;
+    background-color: #414eff;
+    border-radius: 25px;
   }
   

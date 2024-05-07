@@ -5,7 +5,6 @@
     max-width: auto;
     max-height: 250px;
     background-color: #333; /* Sfondo grigio scuro */
-    border-radius: 10px; /* Angoli arrotondati */
   }
   
  .AboutLeft h1 {
@@ -13,13 +12,13 @@
     text-align: right;
     padding: 20px;
     color: #fff;
+    font-size: 70px;
   }
   
   .AboutLeft img {
     max-width: 500px;
     max-height: 250px;
     flex-shrink: 0;
-    border-radius: 10px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }

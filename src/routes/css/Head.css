@@ -1,5 +1,10 @@
 .contenitore-immagine-head {
     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
   }
   
   .contenitore-testo-head {
@@ -19,6 +24,7 @@
   
   /* Sfumatura */
   .contenitore-immagine-head:before {
+    border-radius: 10px;
     content: "";
     position: absolute;
     top: 0;
@@ -31,4 +37,5 @@
   .contenitore-immagine-head img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
   }

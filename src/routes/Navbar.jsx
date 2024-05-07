@@ -19,8 +19,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
+    <nav className="navbar ">
+      <div className="navbar-logo navbar-links">
         <Link to="/">
           <img src="./../src/assets/hospital.svg" alt="Logo" />
           <span className="navbar-logo-text">ARCH</span>
