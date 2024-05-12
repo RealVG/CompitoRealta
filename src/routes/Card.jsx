@@ -12,8 +12,8 @@ function Card({ title, image }) {
           <img src="./../src/assets/star.png" alt="Stella gialla"/>
           <img src="./../src/assets/star.png" alt="Stella gialla"/>
           <img src="./../src/assets/star.png" alt="Stella gialla"/>
-          <img src="./../src/assets/star.png" alt="Stella vuota"/>
-          <img src="./../src/assets/halfstar.png" alt="Stella vuota"/>
+          <img src="./../src/assets/star.png" alt="Stella gialla"/>
+          <img src="./../src/assets/star.png" alt="Stella gialla"/>
         </div>
         <h2>{title}</h2>
       </div>
